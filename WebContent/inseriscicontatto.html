@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form method="post" action="http://localhost:8080/rubricaweb/inseriscicontatto">
+<h1>INSERISCI DATI CONTATTO</h1>
+
+ <h1>CONTATTO</h1>
+Nome *: <input type="text" name="nome" required> <br>
+Cognome *: <input type="text" name="cognome" required> <br>
+E-Mail *: <input type="email" name="email" placeholder="tua_email@gmail.com" required> <br>
+
+<!--  input type="hidden" name="operazione" value="insert" --> 
+ <h1>NUMERI TELEFONO</h1>
+NUMERO 1 *: <input type="text" name="numero1" placeholder="inserisci un numero valido" required> <br>
+NUMERO 2 : <input type="text" name="numero2" placeholder="inserisci un numero valido" > <br>
+<input type="submit" value="invia">
+</form>
+
+</body>
+</html>

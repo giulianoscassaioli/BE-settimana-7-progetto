@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Modifica un contatto esistente</title>
+</head>
+<body>
+
+<h1>INSERISCI UN CONTATTO DA MODIFICARE E DUE NUMERI TELEFONICI</h1>
+
+<form method="post" action="http://localhost:8080/rubricaweb/modificacontatto">
+<h2>INSERISCI L' ID DI UN CONTATTO DA MODIFICARE</h2> 
+ ID CONTATTO *: <input type="number" name="id" required> <br>
+ <h2>INSERICI I NUMERI DI TELEFONO</h2>
+NUMERO 1 *: <input type="text" name="numero1" placeholder="inserisci un numero valido" required> <br>
+NUMERO 2 : <input type="text" name="numero2" placeholder="inserisci un numero valido"> <br>
+<input type="submit" value="MODIFICA">
+</form>
+</body>
+</html>
